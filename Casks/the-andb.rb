@@ -9,14 +9,14 @@ cask "the-andb" do
     url "https://github.com/The-Andb/andb-desktop/releases/download/v#{version}/The-Andb-#{version}-arm64.dmg"
   end
 
-  name "The Andb"
+  name "TheAndb"
   desc "Professional Database Migration Architecture"
   homepage "https://theandb.com"
 
-  app "The Andb.app"
+  app "TheAndb.app"
 
   zap trash: [
-    "~/Library/Application Support/The Andb",
+    "~/Library/Application Support/TheAndb",
     "~/Library/Preferences/com.anph.andb.v3.plist",
     "~/Library/Saved Application State/com.anph.andb.v3.savedState",
   ]
