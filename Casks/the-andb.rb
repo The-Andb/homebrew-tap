@@ -14,6 +14,7 @@ cask "the-andb" do
   homepage "https://theandb.com"
 
   app "TheAndb.app"
+  binary "#{appdir}/TheAndb.app/Contents/Resources/bin/andb", target: "andb"
 
   zap trash: [
     "~/Library/Application Support/TheAndb",
